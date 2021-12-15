@@ -597,8 +597,8 @@ a:not([class]) {
 .gallery-imageset-1, 
 .gallery-imageset-2 {
   max-width: 50%;
-  display: block;
-  /* flex: 50%; */
+
+ 
 }
 
 @media (min-width: 750px) {
@@ -607,11 +607,6 @@ a:not([class]) {
       max-width: 1440px;
       
   }
-.gallery-imageset-1, 
-.gallery-imageset-2 {
-  width: 100%;
-
-}
 
 }
 
